@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "polars-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["ludsonfelipe <felipe_ludson@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^0.20.31"
+
+[tool.poetry.group.dev.dependencies]
+polars = "^0.20.31"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
