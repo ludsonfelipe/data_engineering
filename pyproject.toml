@@ -6,10 +6,7 @@ authors = ["ludsonfelipe <felipe_ludson@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-polars = "^0.20.31"
-
-[tool.poetry.group.dev.dependencies]
+python = "^3.10.11"
 polars = "^0.20.31"
 
 [build-system]
